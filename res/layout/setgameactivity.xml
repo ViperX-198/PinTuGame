@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <SeekBar
+            android:id="@+id/setgameactivity_SeekBar_seekBar1"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/setgameactivity_TextV_w1"
+            android:layout_alignParentRight="true" />
+
+        <ImageButton
+            android:id="@+id/setgameactivity_ImageButton_MusicState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/setgameactivity_Button_music_on"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/audio_on" />
+
+        <TextView
+            android:id="@+id/setgameactivity_TextV_w1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="声音状态\n\n\n开启/关闭声音\n\n\n放大/减小音量\n\n\n音量显示"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/setgameactivity_Button_music_off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/setgameactivity_ImageButton_MusicState"
+            android:layout_marginTop="57dp"
+            android:background="@drawable/off" />
+
+        <Button
+            android:id="@+id/setgameactivity_Button_music_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/setgameactivity_Button_music_off"
+            android:layout_alignBottom="@+id/setgameactivity_Button_music_off"
+            android:layout_toLeftOf="@+id/setgameactivity_Button_music_off"
+            android:background="@drawable/on" />
+
+        <Button
+            android:id="@+id/setgameactivity_Button_trunDomn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/setgameactivity_Button_trunUp"
+            android:layout_alignBottom="@+id/setgameactivity_Button_trunUp"
+            android:layout_toLeftOf="@+id/setgameactivity_Button_music_off"
+            android:background="@drawable/down" />
+
+        <Button
+            android:id="@+id/setgameactivity_Button_trunUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/setgameactivity_Button_music_off"
+            android:layout_marginTop="55dp"
+            android:background="@drawable/up" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/setgameactivity_relative_re1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <Button
+            android:id="@+id/setgameactivity_Button_qingkon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="70dp"
+            android:layout_alignParentLeft="true"
+            android:text="@string/setgameactivity_world_qingkon" />
+
+        <Button
+            android:id="@+id/setgameactivity_Button_fhui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="70dp"
+           
+            
+            android:text="@string/setgameactivity_world_fhui" />
+    </RelativeLayout>
+
+</LinearLayout>

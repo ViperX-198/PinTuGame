@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menuback"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/menuactivity_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bm1" />
+
+    <Button
+        android:id="@+id/menuactivity_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/menuactivity_button1"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/bm2" />
+
+    <Button
+        android:id="@+id/menuactivity_button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/menuactivity_button2"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/bm3" />
+
+    <Button
+        android:id="@+id/menuactivity_button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/menuactivity_button3"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/bm4" />
+
+    <Button
+        android:id="@+id/menuactivity_button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/menuactivity_button4"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/bm5" />
+
+    <Button
+        android:id="@+id/menuactivity_button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/menuactivity_button5"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/bm6" />
+
+</RelativeLayout>

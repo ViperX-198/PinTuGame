@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">拼图游戏自己版</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="startgameactivity_world">这是游戏开始页面</string>
+    <string name="pointsranactivity_world">这是积分排名页面</string>
+    <string name="setgameactivity_world">这是游戏设置页面</string>
+    <string name="setgameactivity_world_qingkon">清空存档</string>
+    <string name="setgameactivity_world_fhui">返回</string>
+    <string name="select_xml_tv_tishi">请选择图片</string>
+    <string name="gamehelpactivity_world1">一、基本操作\n点击欲移动格子进行移动\n点击缩略图查看原图\n点击播放图标重放游戏步骤\n游戏中按手机返回键:弹出选择返回游戏选关界面\n\n二、难度设定\n游戏根据简单，普通，困难三个难度将拼图分割为3*3,4*4,5*5三种样式</string>
+    <string name="gamehelpactivity_world2">在主菜单点击积分排名按钮可查看每个难度下过关的最短时间</string>
+    <string name="breakrecordactivity_btn_world">完成</string>
+    <string name="breakrecordactivity_tv_world2">打破记录啦！作为高手高手高高手，请一定留下您的大名</string>
+    <string name="breakrecordactivity_tv_world1">请输入您的大名</string>
+    
+</resources>

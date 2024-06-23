@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView 
+        android:id="@+id/breakrecordactivity_tv_weizi1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:text="@string/breakrecordactivity_tv_world1"
+       android:layout_marginTop="0dp"
+        android:layout_marginLeft="90dp"
+        android:textSize="30sp"/>
+    <TextView 
+        android:id="@+id/breakrecordactivity_tv_weizi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/breakrecordactivity_tv_weizi1"
+        android:text="@string/breakrecordactivity_tv_world2"
+        android:textSize="30sp"/>"
+     <EditText
+        android:id="@+id/breakrecordactivity_et_write"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:layout_below="@id/breakrecordactivity_tv_weizi2"/>
+<Button 
+        android:id="@+id/breakrecordactivity_btn_queren"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/breakrecordactivity_et_write"
+        android:text="@string/breakrecordactivity_btn_world"/>
+</RelativeLayout>
